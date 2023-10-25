@@ -2,10 +2,9 @@
 This repository is created for TECHIN 509 Assignment 4.
 
 **1. Title and Description**
-
-   
-- Flood Fill xxx
+- Flood Fill defines criteria for determining whether a cell or pixel should be filled with the new value. Typically, this criterion is based on comparing the current cell's value with the value at the cellpoint. If they match, the cell is considered part of the region to be filled.
 - In the context of a flood fill algorithm, "recursively fill adjacent cells" refers to the process of systematically visiting neighboring cells of the current cell (x, y) and applying the fill operation to them. This process is carried out recursively, meaning that the function calls itself to explore adjacent cells.
+  
 **2. Code Explanation**
 
 **2.1 Flood Fill Function**
