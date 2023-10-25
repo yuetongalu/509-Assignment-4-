@@ -67,4 +67,9 @@ for row in modified_board:
 
 
 
- 
+ modified_board = flood_fill(input_board=board, old=".", new="~", x=3, y=8)
+
+# Print the modified board
+for row in modified_board:
+    print(''.join(row))
+
